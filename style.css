@@ -143,7 +143,7 @@ li {
 .section-title h1 {
   font-size: 40px;
   margin-bottom: 20px;
-  padding: 130px;
+  padding: 100px;
 }
 
 #projetos {
@@ -166,7 +166,7 @@ li {
 }
 
 .projeto-nome {
-  font-size: 1.625;
+  font-size: 1.625rem;
   margin-bottom: 50px;
   position: relative;
 }
