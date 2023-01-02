@@ -30,10 +30,10 @@
   position: fixed;
   display: flex;
   justify-content: space-around;
-  top: 0px;
+  top: 10px;
   left: 0;
   width: 100%;
-  height: 90px;
+  height: 100px;
   background-color: rgb(22, 21, 21);
 }
 
@@ -63,7 +63,7 @@ li {
 
 .cabeçalho-link a {
   color: white;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .cabeçalho-link a:hover {
@@ -74,21 +74,21 @@ li {
 .container-title {
   color: white;
   font-size: 20px;
-  padding: 100px;
+  padding: 120px;
   display: flex;
   justify-content: center;
   text-align: center;
   flex-direction: column;
 }
 .botoes {
-  margin-left: 500px;
+  margin-left: 620px;
 }
 .btn-1 {
   margin-top: 10px;
-  padding: 15px 60px;
+  padding: 25px 80px;
   display: inline;
   background: linear-gradient(100.77deg, #1b1b1f 5.1%, #1b1b1f 177.71%);
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 10px;
   cursor: pointer;
   color: white;
@@ -105,10 +105,10 @@ li {
 
 .btn-2 {
   margin-top: 60px;
-  padding: 15px 60px;
+  padding: 25px 80px;
   display: inline-block;
   background: linear-gradient(100.77deg, #1b1b1f 5.1%, #1b1b1f 177.71%);
-  border-radius: 5px;
+  border-radius: 10px;
   margin-right: 10px;
   cursor: pointer;
   color: white;
@@ -146,15 +146,21 @@ li {
   padding: 100px;
 }
 
+.section-title P {
+  font-size: 20px;
+}
+
 #projetos {
   background-color: rgb(22, 21, 21);
   color: white;
 }
 .projeto-bg {
-  padding: 20px;
+  padding: 30px;
   height: 560px;
   background: #0f0f0f;
   color: #fff;
+  width: 100%;
+  height: 100vh;
 }
 
 .projeto-titulo {
@@ -216,24 +222,57 @@ li {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 }
-.footer-container h1 {
-  padding: 90px;
+.footer-container h5 {
+  padding: 100px;
   color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social img {
+  height: 24px;
+  border-radius: 50%;
+}
+
+footer h5 {
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 14px;
   text-align: center;
 }
 
-.footer-redes {
-  max-width: 10px;
+.social a {
+  background-color: #2ecc71;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
 
-.footer-redes img {
-  margin-left: 200px;
-  max-width: 50px;
-  max-height: 150px;
-  width: auto;
-  height: auto;
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+  background-color: #e0e7e3;
 }
 
 @media (max-width: 860px) {
