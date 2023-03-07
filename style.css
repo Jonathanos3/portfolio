@@ -202,6 +202,10 @@ li {
 .projeto-item:nth-child(3) {
   margin-bottom: 10px;
 }
+
+.link {
+  color: #fff;
+}
 .link:hover {
   color: #2ecc71;
   transition: 0.3s;
